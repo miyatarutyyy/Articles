@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "preview:zenn": "npx zenn preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preview:zenn": "npx zenn preview"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
   "type": "commonjs",
   "dependencies": {
     "zenn-cli": "^0.4.8"
+  },
+  "devDependencies": {
+    "@qiita/qiita-cli": "^1.8.0"
   }
 }
