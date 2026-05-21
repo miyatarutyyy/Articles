@@ -1,0 +1,107 @@
+#+OXHUB_TITLE: ox-hub 変換テスト
+#+OXHUB_TAGS: emacs, org-mode, elisp
+#+OXHUB_STATUS: draft
+#+OXHUB_ZENN_EMOJI: 📝
+#+OXHUB_ZENN_TYPE: tech
+#+OXHUB_QIITA_PRIVATE: false
+#+OXHUB_QIITA_SLIDE: false
+
+* はじめに
+
+これは ox-hub の変換確認用の記事です。
+この段落では *bold*、/italic/、=code=、~verbatim~、+strike+ を確認します。
+
+外部リンクは [[https://example.com][Example Domain]] として出力されます。
+通常の file link は [[file:notes.org][Notes]] として、画像 file link は [[file:images/sample.png]] として出力されます。
+
+** リスト
+
+- unordered item one
+- unordered item two
+  - nested unordered child
+  - nested unordered child two
+- multi paragraph item
+
+  second paragraph in the same list item
+
+1. ordered item one
+2. ordered item two
+   1. nested ordered child
+   2. nested ordered child two
+3. ordered multi paragraph item
+
+   second paragraph in the same ordered item
+
+** 引用
+
+#+begin_quote
+引用ブロックです。
+引用内でも *bold* と =code= を確認します。
+#+end_quote
+
+** テーブル
+
+| Name  | Value | Note        |
+|-------+-------+-------------|
+| alpha |     1 | first row   |
+| beta  |     2 | second row  |
+| gamma |     3 | third row   |
+
+** コードブロック
+
+#+begin_src emacs-lisp
+(defun ox-hub-test-message ()
+  (message "Hello from ox-hub"))
+#+end_src
+
+#+begin_example
+This is an example block.
+It is rendered as a fenced code block without language.
+#+end_example
+
+#+begin_src text
+This block contains a Markdown fence:
+```
+The outer fence should become longer.
+#+end_src
+
+#+begin_src mermaid
+graph TD
+  A[Org source] --> B[ox-hub]
+  B --> C[Zenn Markdown]
+  B --> D[Qiita Markdown]
+#+end_src
+
+** 水平線と脚注
+
+水平線の前の段落です。
+
+-----
+
+水平線の後の段落です。脚注参照も確認します[fn:note1]。
+
+** oxhub directive
+
+#+begin_oxhub message
+これは info message です。
+#+end_oxhub
+
+#+begin_oxhub message :type alert
+これは alert message です。
+#+end_oxhub
+
+#+begin_oxhub details :summary "詳細 <summary> & escape"
+details directive の本文です。
+Qiita では summary が HTML escape されることを確認します。
+#+end_oxhub
+
+#+begin_oxhub codefile :lang emacs-lisp :filename init.el
+(setq inhibit-startup-screen t)
+(message "codefile directive")
+#+end_oxhub
+
+* おわりに
+
+ここまでが対応済み記法の変換確認です。
+
+[fn:note1] これは脚注定義です。
