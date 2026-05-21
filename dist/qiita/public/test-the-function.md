@@ -6,7 +6,7 @@ tags:
   - "elisp"
 private: false
 slide: false
-ignorePublish: true
+ignorePublish: false
 ---
 
 # はじめに

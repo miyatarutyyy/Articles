@@ -3,7 +3,7 @@ title: "ox-hub 変換テスト"
 emoji: "📝"
 type: "tech"
 topics: ["emacs", "org-mode", "elisp"]
-published: false
+published: true
 ---
 
 # はじめに

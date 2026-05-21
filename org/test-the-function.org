@@ -1,6 +1,6 @@
 #+OXHUB_TITLE: ox-hub 変換テスト
 #+OXHUB_TAGS: emacs, org-mode, elisp
-#+OXHUB_STATUS: draft
+#+OXHUB_STATUS: published
 #+OXHUB_ZENN_EMOJI: 📝
 #+OXHUB_ZENN_TYPE: tech
 #+OXHUB_QIITA_PRIVATE: false
@@ -12,7 +12,7 @@
 この段落では *bold*、/italic/、=code=、~verbatim~、+strike+ を確認します。
 
 外部リンクは [[https://example.com][Example Domain]] として出力されます。
-通常の file link は [[file:notes.org][Notes]] として、画像 file link は [[file:images/sample.png]] として出力されます。
+通常の file link は [[file:notes.org][Notes]] として、画像 file link は [[file:images/icon.png]] として出力されます。
 
 ** リスト
 
