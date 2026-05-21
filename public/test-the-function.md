@@ -5,6 +5,9 @@ tags:
   - "org-mode"
   - "elisp"
 private: false
+updated_at: ""
+id: ""
+organization_url_name: ""
 slide: false
 ignorePublish: false
 ---
