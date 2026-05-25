@@ -9,7 +9,7 @@ published: true
 # はじめに
 
 これは ox-hub の変換確認用の記事です。
-この段落では *bold*、/italic/、=code=、~verbatim~、+strike+ を確認します。
+この段落では **bold**, *italic*, `code`, `verbatim`, ~~strike~~ を確認します。
 
 外部リンクは [Example Domain](https://example.com) として出力されます。
 通常の file link は [Notes](notes.org) として、画像 file link は ![](/images/icon.png) として出力されます。

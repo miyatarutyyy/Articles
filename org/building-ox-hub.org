@@ -1,0 +1,8 @@
+#+OXHUB_TITLE: Orgファイルで記事を投稿するためにEmacs Packageを作ってみた
+#+OXHUB_TAGS: Emacs, Org-mode, Zenn, Qiita
+#+OXHUB_STATUS: draft
+#+OXHUB_ZENN_EMOJI: 🦄
+#+OXHUB_ZENN_TYPE: tech
+#+OXHUB_QIITA_PRIVATE: false
+#+OXHUB_QIITA_SLIDE: false
+
