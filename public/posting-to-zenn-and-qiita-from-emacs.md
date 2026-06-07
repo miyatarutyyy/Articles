@@ -1,12 +1,12 @@
 ---
-title: "【初投稿】Org-modeで書いた記事をEmacsからZennとQiitaに投稿できるようにした話"
+title: 【初投稿】Org-modeで書いた記事をEmacsからZennとQiitaに投稿できるようにした話
 tags:
-  - "Emacs"
-  - "個人開発"
+  - Emacs
+  - 個人開発
 private: false
-updated_at: ""
-id: ""
-organization_url_name: ""
+updated_at: '2026-06-07T23:08:20+09:00'
+id: ce0b59708d1aa3952515
+organization_url_name: null
 slide: false
 ignorePublish: false
 ---
